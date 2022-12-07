@@ -9,20 +9,12 @@
 }
 .promo__item {
   list-style: none;
-  display: flex;
   margin: inherit;
   align-items: center;
   padding-left: 0;
   justify-content: center;
 }
 
-@media screen and (min-width: 768px) {
-  .promo__item {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-  }
-}
 @media screen and (min-width: 480px) {
   .promo__item {
     display: flex;

@@ -1,7 +1,11 @@
 .footer {
-  height: 252px;
   background-color: var(--background-dark);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+  }
 }
+
 .footer__contacts {
   padding-left: 0px;
   list-style: none;
@@ -90,7 +94,6 @@
 }
 
 .footer__bottomlogo {
-  padding-top: 60px;
   padding-bottom: 20px;
 }
 
@@ -135,7 +138,7 @@
 .footer__icon-container {
   width: 206px;
   height: 80px;
-  margin-top: 72px;
+  margin-top: 12px;
   margin-right: 78px;
 }
 
@@ -169,7 +172,7 @@
 }
 .footer__newsletter-container {
   height: 86px;
-  margin-top: 72px;
+  margin-top: 12px;
 }
 .footer__join-newsletter {
   font-family: inherit;
