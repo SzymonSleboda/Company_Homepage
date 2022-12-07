@@ -23,18 +23,29 @@
 }
 .main-section__message {
   font-family: inherit;
-  font-size: 44px;
+  font-size: 26px;
   font-weight: 900;
-  line-height: 1.36;
+  line-height: 1.62;
   letter-spacing: 0.06em;
-  width: 696px;
   text-align: center;
-  color: #ffffff;
   background-color: var(--background-dark);
   margin: inherit;
   padding-bottom: 30px;
   background: none;
+  color: #ffffff;
+  width: 365px;
 }
+@media screen and (min-width: 1200px) {
+  .main-section__message {
+    font-family: inherit;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    width: 696px;
+  }
+}
+
 .main-section__button {
   color: #ffffff;
   background-color: var(--color-secondary);

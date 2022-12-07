@@ -1,6 +1,11 @@
 .staff {
-  padding-bottom: 94px;
+  padding-bottom: 60px;
   background-color: #f5f4fa;
+}
+@media screen and (min-width: 1200px) {
+  .staff {
+    padding-bottom: 94px;
+  }
 }
 
 .staff__item {

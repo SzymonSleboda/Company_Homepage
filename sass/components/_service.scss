@@ -1,5 +1,18 @@
 .service {
-  padding-bottom: 94px;
+  padding-bottom: 60px;
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .service {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .service {
+    padding-bottom: 94px;
+  }
 }
 .service__list {
   list-style: none;
