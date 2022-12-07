@@ -105,6 +105,7 @@
     flex-direction: column;
     margin-left: auto;
     gap: 10px;
+    justify-content: flex-start;
     align-items: left;
   }
 }
@@ -156,7 +157,7 @@
     align-self: left;
   }
 }
-.header_ .header__number:hover svg,
+.header .header__number:hover svg,
 .header__number:focus svg {
   fill: var(--color-secondary);
 }
