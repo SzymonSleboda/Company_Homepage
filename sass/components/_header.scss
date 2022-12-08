@@ -97,7 +97,7 @@
   padding-left: 0px;
   display: flex;
   margin: inherit;
-  align-items: center;
+  align-items: left;
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .header__contactlist {
@@ -145,7 +145,6 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   list-style: none;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   justify-items: center;
 
@@ -154,7 +153,6 @@
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .header__number {
     margin-right: 0;
-    align-self: left;
   }
 }
 .header .header__number:hover svg,
