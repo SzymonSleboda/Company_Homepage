@@ -37,14 +37,14 @@
 
   @media screen and (max-width: 1199px) {
     width: 95%;
-    max-width: 528px;
+    max-width: 450px;
  
     overflow: scroll;
   }
   @media screen and (min-width: 1200px) {
     width: 528px;
-    height: 581px;
-    white-space: nowrap
+
+    white-space: nowrap;
   }
 }
 
