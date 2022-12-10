@@ -26,29 +26,30 @@
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  width: 528px;
-  min-height: 581px;
+  max-width: 528px;
+
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   overflow: hidden;
   padding: 40px 40px 40px 40px;
+
   @media screen and (max-width: 1199px) {
     width: 95%;
     max-width: 528px;
-    height: 95%;
-    max-height: 581px;
+ 
     overflow: scroll;
   }
   @media screen and (min-width: 1200px) {
     width: 528px;
     height: 581px;
+    white-space: nowrap
   }
 }
 
 .backdrop__form-container {
-  width: 448px;
+  max-width: 448px;
 }
 .backdrop__formtitle {
   font-family: inherit;
@@ -149,7 +150,7 @@
   position: relative;
   margin-top: 20px;
   padding: 0;
-  width: 419px;
+  max-width: 419px;
   height: 24px;
   border: none;
   border-radius: 4px;
@@ -185,7 +186,7 @@
   text-align: left;
   color: var(--color-primary);
   margin-left: 40px;
-  width: 397px;
+  max-width: 397px;
 }
 
 .backdrop__policy-link {
