@@ -38,7 +38,7 @@
   @media screen and (max-width: 1199px) {
     width: 95%;
     max-width: 450px;
- 
+
     overflow: scroll;
   }
   @media screen and (min-width: 1200px) {
@@ -198,6 +198,7 @@
   text-align: left;
   color: var(--color-secondary);
   text-decoration: underline;
+  cursor: pointer;
 }
 .backdrop__checkbox:checked + .backdrop__checkbox-border {
   background-color: var(--color-secondary);
