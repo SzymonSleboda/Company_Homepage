@@ -70,11 +70,20 @@
 .link:focus {
   color: var(--color-secondary);
 }
+.link {
+  font-family: inherit;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.17 ;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
 .nav-mobile-container {
-  padding-top: 296px;
+  justify-content: space-between;
   margin: 0;
   list-style: none;
   padding-left: 10px;
+  margin-top: 292px;
 }
 
 .mobile-tel {
@@ -83,7 +92,7 @@
   font-size: 34px;
   line-height: 40px;
   text-decoration: none;
-  color: #757575;
+  color: var(--color-secondary);
   padding-bottom: 30px;
 }
 .mobile-tel:focus {
@@ -110,5 +119,5 @@
   line-height: 1.22;
   list-style: none;
   padding-left: 10px;
-  padding-top: 32px;
+  padding-top: 46px;
 }
